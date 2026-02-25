@@ -1,0 +1,198 @@
+Relationship data (top combinations per variable pair):
+
+Country <-> Disease Name
+  Russia | Hepatitis -> 2700
+  Russia | HIV/AIDS -> 2635
+  Germany | Cancer -> 2633
+  South Africa | Ebola -> 2630
+  South Korea | COVID-19 -> 2626
+  South Korea | Dengue -> 2618
+  Japan | HIV/AIDS -> 2611
+  UK | COVID-19 -> 2610
+  UK | Dengue -> 2604
+  Canada | Polio -> 2604
+
+Country <-> Disease Category
+  China | Cardiovascular -> 4754
+  South Africa | Autoimmune -> 4715
+  South Korea | Infectious -> 4701
+  Japan | Metabolic -> 4698
+  Russia | Parasitic -> 4691
+  Mexico | Viral -> 4690
+  South Africa | Genetic -> 4689
+  Argentina | Neurological -> 4688
+  South Korea | Autoimmune -> 4687
+  Russia | Autoimmune -> 4685
+
+Country <-> Age Group
+  Russia | 19-35 -> 12817
+  South Korea | 19-35 -> 12803
+  Mexico | 19-35 -> 12754
+  UK | 19-35 -> 12688
+  Canada | 0-18 -> 12673
+  Nigeria | 36-60 -> 12659
+  Germany | 61+ -> 12654
+  South Africa | 61+ -> 12640
+  Saudi Arabia | 0-18 -> 12637
+  Australia | 61+ -> 12622
+
+Country <-> Gender
+  South Africa | Other -> 16952
+  Russia | Male -> 16938
+  South Korea | Female -> 16863
+  USA | Female -> 16827
+  Germany | Female -> 16806
+  India | Male -> 16803
+  Russia | Female -> 16800
+  Russia | Other -> 16794
+  Canada | Male -> 16790
+  Indonesia | Other -> 16783
+
+Country <-> Treatment Type
+  Russia | Therapy -> 12749
+  South Africa | Therapy -> 12740
+  China | Medication -> 12738
+  South Africa | Vaccination -> 12697
+  USA | Surgery -> 12685
+  Canada | Surgery -> 12674
+  Mexico | Vaccination -> 12647
+  Saudi Arabia | Surgery -> 12643
+  Germany | Therapy -> 12642
+  Nigeria | Therapy -> 12639
+
+Disease Name <-> Disease Category
+  Malaria | Bacterial -> 4707
+  Alzheimer's Disease | Neurological -> 4700
+  Dengue | Parasitic -> 4691
+  HIV/AIDS | Respiratory -> 4689
+  Leprosy | Infectious -> 4689
+  Influenza | Autoimmune -> 4687
+  Alzheimer's Disease | Viral -> 4685
+  HIV/AIDS | Genetic -> 4682
+  COVID-19 | Parasitic -> 4680
+  Dengue | Metabolic -> 4671
+
+Disease Name <-> Age Group
+  Zika | 19-35 -> 12841
+  Leprosy | 19-35 -> 12724
+  Ebola | 0-18 -> 12711
+  HIV/AIDS | 36-60 -> 12698
+  Cancer | 19-35 -> 12692
+  Parkinson's Disease | 19-35 -> 12686
+  Malaria | 19-35 -> 12671
+  Tuberculosis | 36-60 -> 12650
+  Dengue | 19-35 -> 12649
+  HIV/AIDS | 0-18 -> 12647
+
+Disease Name <-> Gender
+  Dengue | Male -> 17004
+  HIV/AIDS | Other -> 16987
+  Leprosy | Male -> 16974
+  Cancer | Male -> 16882
+  Cholera | Male -> 16867
+  Cholera | Female -> 16855
+  HIV/AIDS | Female -> 16842
+  Influenza | Other -> 16836
+  COVID-19 | Other -> 16831
+  Zika | Other -> 16802
+
+Disease Name <-> Treatment Type
+  HIV/AIDS | Medication -> 12763
+  Influenza | Medication -> 12717
+  Cancer | Surgery -> 12706
+  Rabies | Therapy -> 12704
+  Leprosy | Surgery -> 12704
+  Cholera | Surgery -> 12692
+  Cancer | Therapy -> 12676
+  Hepatitis | Surgery -> 12652
+  COVID-19 | Medication -> 12643
+  Dengue | Therapy -> 12636
+
+Disease Category <-> Age Group
+  Viral | 19-35 -> 23181
+  Metabolic | 36-60 -> 23030
+  Metabolic | 19-35 -> 23008
+  Genetic | 61+ -> 22990
+  Genetic | 0-18 -> 22983
+  Parasitic | 19-35 -> 22944
+  Respiratory | 19-35 -> 22941
+  Cardiovascular | 61+ -> 22929
+  Neurological | 19-35 -> 22907
+  Autoimmune | 61+ -> 22890
+
+Disease Category <-> Gender
+  Neurological | Other -> 30587
+  Cardiovascular | Male -> 30565
+  Metabolic | Other -> 30558
+  Metabolic | Female -> 30549
+  Viral | Male -> 30543
+  Parasitic | Female -> 30540
+  Autoimmune | Female -> 30477
+  Viral | Other -> 30475
+  Infectious | Female -> 30434
+  Genetic | Other -> 30432
+
+Disease Category <-> Treatment Type
+  Metabolic | Therapy -> 22994
+  Autoimmune | Medication -> 22955
+  Genetic | Surgery -> 22901
+  Cardiovascular | Therapy -> 22901
+  Respiratory | Surgery -> 22889
+  Autoimmune | Surgery -> 22887
+  Infectious | Vaccination -> 22883
+  Genetic | Vaccination -> 22873
+  Metabolic | Medication -> 22871
+  Parasitic | Surgery -> 22869
+
+Age Group <-> Gender
+  19-35 | Male -> 83978
+  19-35 | Other -> 83701
+  61+ | Male -> 83657
+  19-35 | Female -> 83522
+  0-18 | Female -> 83477
+  61+ | Female -> 83305
+  0-18 | Other -> 83259
+  36-60 | Male -> 83172
+  36-60 | Other -> 83114
+  61+ | Other -> 83027
+
+Age Group <-> Treatment Type
+  19-35 | Vaccination -> 62983
+  19-35 | Therapy -> 62916
+  19-35 | Medication -> 62716
+  36-60 | Surgery -> 62704
+  0-18 | Surgery -> 62650
+  61+ | Medication -> 62598
+  61+ | Surgery -> 62588
+  19-35 | Surgery -> 62586
+  0-18 | Therapy -> 62555
+  61+ | Vaccination -> 62527
+
+Gender <-> Treatment Type
+  Male | Surgery -> 83719
+  Male | Therapy -> 83658
+  Female | Therapy -> 83471
+  Other | Surgery -> 83453
+  Female | Vaccination -> 83445
+  Female | Surgery -> 83356
+  Other | Medication -> 83317
+  Other | Vaccination -> 83197
+  Male | Medication -> 83188
+  Other | Therapy -> 83134
+
+Conclusions (most frequent combinations per pair):
+- Country + Disease Name: Russia / Hepatitis occurs 2700 times
+- Country + Disease Category: China / Cardiovascular occurs 4754 times
+- Country + Age Group: Russia / 19-35 occurs 12817 times
+- Country + Gender: South Africa / Other occurs 16952 times
+- Country + Treatment Type: Russia / Therapy occurs 12749 times
+- Disease Name + Disease Category: Malaria / Bacterial occurs 4707 times
+- Disease Name + Age Group: Zika / 19-35 occurs 12841 times
+- Disease Name + Gender: Dengue / Male occurs 17004 times
+- Disease Name + Treatment Type: HIV/AIDS / Medication occurs 12763 times
+- Disease Category + Age Group: Viral / 19-35 occurs 23181 times
+- Disease Category + Gender: Neurological / Other occurs 30587 times
+- Disease Category + Treatment Type: Metabolic / Therapy occurs 22994 times
+- Age Group + Gender: 19-35 / Male occurs 83978 times
+- Age Group + Treatment Type: 19-35 / Vaccination occurs 62983 times
+- Gender + Treatment Type: Male / Surgery occurs 83719 times
