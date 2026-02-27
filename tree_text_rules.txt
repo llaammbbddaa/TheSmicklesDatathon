@@ -1,0 +1,61 @@
+|--- Per Capita Income (USD) <= 99948.50
+|   |--- Education Index <= 0.48
+|   |   |--- Hospital Beds per 1000 <= 0.66
+|   |   |   |--- Population Affected <= 589490.50
+|   |   |   |   |--- Recovery Rate (%) <= 58.12
+|   |   |   |   |   |--- value: [5.65]
+|   |   |   |   |--- Recovery Rate (%) >  58.12
+|   |   |   |   |   |--- value: [5.01]
+|   |   |   |--- Population Affected >  589490.50
+|   |   |   |   |--- Population Affected <= 850085.50
+|   |   |   |   |   |--- value: [5.71]
+|   |   |   |   |--- Population Affected >  850085.50
+|   |   |   |   |   |--- value: [5.17]
+|   |   |--- Hospital Beds per 1000 >  0.66
+|   |   |   |--- Prevalence Rate (%) <= 0.75
+|   |   |   |   |--- Per Capita Income (USD) <= 95711.50
+|   |   |   |   |   |--- value: [4.95]
+|   |   |   |   |--- Per Capita Income (USD) >  95711.50
+|   |   |   |   |   |--- value: [4.32]
+|   |   |   |--- Prevalence Rate (%) >  0.75
+|   |   |   |   |--- Per Capita Income (USD) <= 11826.00
+|   |   |   |   |   |--- value: [5.14]
+|   |   |   |   |--- Per Capita Income (USD) >  11826.00
+|   |   |   |   |   |--- value: [5.07]
+|   |--- Education Index >  0.48
+|   |   |--- Education Index <= 0.81
+|   |   |   |--- Population Affected <= 801611.50
+|   |   |   |   |--- Average Treatment Cost (USD) <= 308.50
+|   |   |   |   |   |--- value: [4.83]
+|   |   |   |   |--- Average Treatment Cost (USD) >  308.50
+|   |   |   |   |   |--- value: [5.05]
+|   |   |   |--- Population Affected >  801611.50
+|   |   |   |   |--- Urbanization Rate (%) <= 20.37
+|   |   |   |   |   |--- value: [5.48]
+|   |   |   |   |--- Urbanization Rate (%) >  20.37
+|   |   |   |   |   |--- value: [5.01]
+|   |   |--- Education Index >  0.81
+|   |   |   |--- Healthcare Access (%) <= 99.98
+|   |   |   |   |--- Doctors per 1000 <= 1.00
+|   |   |   |   |   |--- value: [5.01]
+|   |   |   |   |--- Doctors per 1000 >  1.00
+|   |   |   |   |   |--- value: [5.07]
+|   |   |   |--- Healthcare Access (%) >  99.98
+|   |   |   |   |--- value: [6.25]
+|--- Per Capita Income (USD) >  99948.50
+|   |--- Hospital Beds per 1000 <= 8.89
+|   |   |--- Incidence Rate (%) <= 1.95
+|   |   |   |--- value: [3.62]
+|   |   |--- Incidence Rate (%) >  1.95
+|   |   |   |--- Healthcare Access (%) <= 76.14
+|   |   |   |   |--- Prevalence Rate (%) <= 10.82
+|   |   |   |   |   |--- value: [3.89]
+|   |   |   |   |--- Prevalence Rate (%) >  10.82
+|   |   |   |   |   |--- value: [5.22]
+|   |   |   |--- Healthcare Access (%) >  76.14
+|   |   |   |   |--- Disease Name <= 12.50
+|   |   |   |   |   |--- value: [5.03]
+|   |   |   |   |--- Disease Name >  12.50
+|   |   |   |   |   |--- value: [6.22]
+|   |--- Hospital Beds per 1000 >  8.89
+|   |   |--- value: [3.25]
